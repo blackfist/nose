@@ -1,0 +1,58 @@
+{
+    "type":"object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required":false,
+    "properties":{
+        "fname": {
+            "type":"string",
+            "id": "http://jsonschema.net/fname",
+            "required":false
+        },
+        "kids": {
+            "type":"array",
+            "minItems": 1,
+            "id": "http://jsonschema.net/kids",
+            "required":false,
+            "items":
+                {
+                    "type":"object",
+                    "id": "http://jsonschema.net/kids/0",
+                    "required":false,
+                    "properties":{
+                        "age": {
+                            "type":"number",
+                            "id": "http://jsonschema.net/kids/0/age",
+                            "required":true
+                        },
+                        "fname": {
+                            "type":"string",
+                            "id": "http://jsonschema.net/kids/0/fname",
+                            "required":false
+                        }
+                    }
+                }
+            
+
+        },
+        "lname": {
+            "type":"string",
+            "id": "http://jsonschema.net/lname",
+            "required":false
+        },
+        "tags": {
+            "type":"array",
+            "id": "http://jsonschema.net/tags",
+            "required":false,
+            "items":
+                {
+                    "type":"string",
+                    "id": "http://jsonschema.net/tags/0",
+                    "required":false
+                }
+            
+
+        }
+    }
+}
+

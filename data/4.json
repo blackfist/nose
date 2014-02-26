@@ -1,0 +1,6 @@
+{"fname":"Kevin",
+"lname":"Thompson",
+"kids":[{"fname":"Jack","age":3},
+           {"fname":"Lauren","age":6}],
+           "tags":["Awesome","Cool","data"]
+}
