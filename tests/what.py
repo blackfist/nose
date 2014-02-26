@@ -3,8 +3,8 @@ from nose.tools import assert_equals
 import os
 from jsonschema import validate, ValidationError
 
-dataPath = '../data'
-schema = json.loads(open('schema.json').read())
+dataPath = 'data'
+schema = json.loads(open('tests/schema.json').read())
 
 def checkOne(inDict,inFileName):
     try:
